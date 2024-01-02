@@ -22,7 +22,8 @@ a:hover {
 }
 
 .button-sign-up:hover {
-    color: #E5E7EB;
+    /* color: #E5E7EB; */
+    color: white;
 }
 
 .header {
@@ -127,9 +128,6 @@ p {
 }
 
 .container-testimonial {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 100vw;
     background-color: #E5E7EB;
     margin-top: 60px;
@@ -148,7 +146,7 @@ p {
     text-align: right;
     font-size: 25px;
     font-weight: 800;
-    padding: 10px 150px;
+    padding: 10px 160px;
 }
 
 .action {
@@ -179,9 +177,18 @@ p {
 }
 
 h3,
-#action-left-para {
+#action-left-para,
+#footer-para {
     margin:0;
 }
 
-
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px; 
+}
 
