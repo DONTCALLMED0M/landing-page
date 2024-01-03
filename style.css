@@ -1,5 +1,4 @@
 * {
-    /* border: 2px solid red; */
     box-sizing: border-box;
 } 
 
@@ -99,10 +98,9 @@ p {
     display: flex;
     justify-content: space-evenly;
     align-items:flex-start;
-    gap: 15px;
     margin: 0 auto;
     flex-wrap: wrap;
-    padding: 0 180px;
+    padding: 0 140px;
 }
 
 .image {
@@ -167,8 +165,6 @@ p {
 }
 
 .action-left {
-    display: flex;
-    flex-direction: column;
     text-align: left;
     color: #E5E7EB;
 }
